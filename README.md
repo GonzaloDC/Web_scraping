@@ -15,9 +15,20 @@ Ya que quiero saber qué género o que tipo de libros tienen más éxito, se ha 
 
 ## Estructura
 
-Se puede dividir el proyecto en dos partes diferenciadas. La primera es la obtención de los datos, que se han extraido usando el script de python [web_scraping.py](src/web_scraping.py) utilizando la librería [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), y guardando los datos extraidos en un dataframe. 
+Se puede dividir el proyecto en dos partes diferenciadas. La primera es la obtención de los datos, que se han extraído usando el script de python [web_scraping.py](src/web_scraping.py) utilizando la librería [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), y guardando los datos extraídos en un dataframe. 
 
 La segunda parte del proyecto es el análisis en sí, que se puede encontrar en el archivo [analisis.ipynb](notebooks/analisis.ipynb)
 
 ## Resultados
+
+Del dataset obtenido, se han generado las siguientes gráficas:
+
+#### distribucion de la nota media:
+![Distribucion de Nota media](/artifacts/img/distribucion.png)
+
+#### Géneros más leídos:
+![Generos](/artifacts/img/genero.png)
+
+#### Editoriales con mas éxito:
+![Distribucion de Nota media](/artifacts/img/editorial.png)
 
